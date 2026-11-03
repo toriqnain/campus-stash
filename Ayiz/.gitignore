@@ -1,0 +1,77 @@
+﻿# ===== Environment =====
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# ===== Database =====
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.mdb
+*.accdb
+!database/schema_example.sql
+!database/seed_dummy.sql
+!databases/schema_example.sql
+!databases/seed_dummy.sql
+!db/schema_example.sql
+!db/seed_dummy.sql
+
+# ===== Private key =====
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.ppk
+*.asc
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# ===== Others =====
+credentials.json
+service-account*.json
+secrets.json
+secrets.yaml
+secrets.yml
+.npmrc
+.pypirc
+.netrc
+.git-credentials
+
+# ===== Archieve =====
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ===== Dependency =====
+/vendor/
+/node_modules/
+/venv/
+/.venv/
+__pycache__/
+*.pyc
+
+# ===== Java build =====
+/build/
+/dist/
+/target/
+*.class
+*.jar
+*.war
+
+# ===== OS / cache =====
+Thumbs.db
+.DS_Store
+*.log
+.ipynb_checkpoints/
+.idea/
+.vscode/
